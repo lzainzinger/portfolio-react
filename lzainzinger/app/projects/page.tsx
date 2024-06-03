@@ -1,0 +1,51 @@
+"use client";
+import React from "react";
+import { HeroParallax } from "@/components/ui/hero-parallax";
+
+export default function Projects() {
+  return <HeroParallax products={products} />;
+}
+export const products = [
+  {
+    title: "Portfolio",
+    link: "https://lzainzinger.com",
+    thumbnail:
+      "/img/main_bg.jpg",
+  },
+  {
+    title: "Pig Out",
+    link: "https://www.pig-out.app/",
+    thumbnail:
+      "/img/pig-out.png",
+  },
+  {
+    title: "Wedding Band Finder",
+    link: "https://lzainzinger.com",
+    thumbnail:
+      "/img/main_bg.jpg",
+  },
+  {
+    title: "Pet 2 Go",
+    link: "https://lzainzinger.com",
+    thumbnail:
+      "/img/main_bg.jpg",
+  },
+  {
+    title: "Jarvis",
+    link: "https://lzainzinger.com",
+    thumbnail:
+      "/img/main_bg.jpg",
+  },
+  {
+    title: "Whatsoever",
+    link: "https://whatsoever.at",
+    thumbnail:
+      "/img/main_bg.jpg",
+  },
+  {
+    title: "White Rose Records",
+    link: "https://whiteroserecords.com",
+    thumbnail:
+      "/img/main_bg.jpg",
+  },
+];

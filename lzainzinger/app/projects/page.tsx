@@ -16,7 +16,7 @@ export const products = [
     title: "Pig Out",
     link: "https://www.pig-out.app/",
     thumbnail:
-      "/img/pig-out.png",
+      "/img/projects/pig-out.png",
   },
   {
     title: "Wedding Band Finder",
@@ -28,24 +28,24 @@ export const products = [
     title: "Pet 2 Go",
     link: "https://lzainzinger.com",
     thumbnail:
-      "/img/main_bg.jpg",
+      "/img/projects/pet2go.jpg",
   },
   {
     title: "Jarvis",
     link: "https://lzainzinger.com",
     thumbnail:
-      "/img/main_bg.jpg",
+      "/img/projects/jarvis.jpg",
   },
   {
     title: "Whatsoever",
     link: "https://whatsoever.at",
     thumbnail:
-      "/img/main_bg.jpg",
+      "/img/projects/whatsoever_placeholder.jpg",
   },
   {
     title: "White Rose Records",
     link: "https://whiteroserecords.com",
     thumbnail:
-      "/img/main_bg.jpg",
+    "/img/projects/wrr_Logo.jpg",
   },
 ];

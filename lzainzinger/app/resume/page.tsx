@@ -8,12 +8,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Container>
-      <span className="text-4xl">💼</span>
       <Heading className="font-black">Work History</Heading>
-      <Paragraph className="max-w-xl mt-4">
-        I&apos;m a full-stack developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
+      <Paragraph className=" mt-4">
+      I am a <Highlight>DevOps Engineer</Highlight> mainly working on developing data engineeringapplications for data transfer between data platforms. 
+      Furthermore working on Cloud Infrastructure and Solutions.
+      <br />
+      <br />
+      At the moment I'm also studying <Highlight>"Digital Business"</Highlight> as a Bachelors Degree at FH Wien der WKW.
+
       </Paragraph>
       <WorkHistory />
     </Container>

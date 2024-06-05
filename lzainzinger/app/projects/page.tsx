@@ -5,7 +5,7 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 export default function Projects() {
   return <HeroParallax products={products} />;
 }
-export const products = [
+const products = [
   {
     title: "Portfolio",
     link: "https://lzainzinger.com",

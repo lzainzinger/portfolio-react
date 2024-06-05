@@ -14,7 +14,7 @@ export default function Home() {
       Furthermore working on Cloud Infrastructure and Solutions.
       <br />
       <br />
-      At the moment I'm also studying <Highlight>"Digital Business"</Highlight> as a Bachelors Degree at FH Wien der WKW.
+      At the moment I am also studying <Highlight>Digital Business</Highlight> as a Bachelors Degree at FH Wien der WKW.
 
       </Paragraph>
       <WorkHistory />

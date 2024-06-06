@@ -3,7 +3,13 @@ import { Heading } from "@/components/ui/heading";
 import { Highlight } from "@/components/ui/highlight";
 import { Paragraph } from "@/components/ui/paragraph";
 import { WorkHistory } from "@/components/ui/workhistory";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "lzainzinger - Resume",
+  description: "Resume of Lukas Zainzinger",
+};
 
 export default function Home() {
   return (

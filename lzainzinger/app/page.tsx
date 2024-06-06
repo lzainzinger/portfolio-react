@@ -36,7 +36,7 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <Link href="/photography">Photos</Link>
         <MenuItem setActive={setActive} active={active} item="Projects">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="All"
               href="/projects"

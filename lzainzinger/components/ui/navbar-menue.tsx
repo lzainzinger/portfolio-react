@@ -25,7 +25,7 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative">
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-white hover:opacity-[0.9] dark:text-white"
@@ -47,7 +47,7 @@ export const MenuItem = ({
               >
                 <motion.div
                   layout // layout ensures smooth animation
-                  className="w-max h-full p-4"
+                  className="min-[320px]:w-screen lg:w-max h-full p-4"
                 >
                   {children}
                 </motion.div>
@@ -89,7 +89,7 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="lg:flex space-x-2 ">
       <Image
         src={src}
         width={140}

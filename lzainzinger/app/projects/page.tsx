@@ -19,10 +19,10 @@ const products = [
       "/img/projects/pig-out.png",
   },
   {
-    title: "Wedding Band Finder",
-    link: "https://lzainzinger.com",
+    title: "Musify",
+    link: "https://musify.at",
     thumbnail:
-      "/img/main_bg.jpg",
+      "/img/projects/musify_logo.jpeg",
   },
   {
     title: "Pet 2 Go",

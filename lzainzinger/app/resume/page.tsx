@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Container>
-      <Heading className="font-black">Work History</Heading>
-      <Paragraph className=" mt-4">
+      <Heading className="text-black">Work History</Heading>
+      <Paragraph className="mt-4 text-black">
       I am a <Highlight>DevOps Engineer</Highlight> mainly working on developing data engineeringapplications for data transfer between data platforms. 
       Furthermore working on Cloud Infrastructure and Solutions.
       <br />

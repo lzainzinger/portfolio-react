@@ -59,7 +59,7 @@ export const HeroParallax = ({
       ref={ref}
       className="h-[300vh] w-screen py-10 antialiased [perspective:1000px] [transform-style:preserve-3d]"
     >
-      <Header />
+      <HeaderProject />
       <div className="flex flex-wrap gap-4 justify-between py-10" >
         {firstRow.map((product) => (
               <ProductCard
@@ -89,7 +89,7 @@ export const HeroParallax = ({
   );
 };
 
-export const Header = () => {
+export const HeaderProject = () => {
   return (
     <div className="max-w-7xl relative mx-auto p-2 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">

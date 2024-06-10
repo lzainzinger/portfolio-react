@@ -89,7 +89,7 @@ export default function BackgroundGradientAnimationDemo() {
         particleColor="#99f6e4"
       />
     </div>
-    <Navbar />
+
     <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold font-sans hover:font-mono text-center text-white relative z-20">
       Lukas Zainzinger
     </h1>

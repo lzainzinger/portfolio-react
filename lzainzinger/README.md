@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚡️astro-bento-portfolio
 
-## Getting Started
+## A personal portfolio website made using `Astro`.
 
-First, run the development server:
+![astro-bento-portfolio | Bento-like Personal Porfolio Template](public/preview.png)
+
+To view a demo example, **[click here](https://sparkly-speculoos-0c9197.netlify.app/)**
+
+or my portfolio **[click here](https://gianmarcocavallo.com)**
+
+## Features
+
+- Modern and Minimal bento-like, sleek UI Design
+- All in one page (almost)
+- Fully Responsive
+- Performances and SEO optimizations
+- Ready to be deployed on [Netlify](https://www.netlify.com/)
+- Blog
+- RSS support (your-domain/rss.xml)
+- Cool 3d globe
+
+## Tech Stack
+
+- [Astro](https://astro.build)
+- [unocss](https://unocss.dev/)
+- [motion](https://motion.dev/)
+- [d3](https://d3js.org/)
+
+# Steps ▶️
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this repository
+$ git clone https://github.com/Ladvace/astro-bento-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Go into the repository
+$ cd astro-bento-portfolio
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Install dependencies
+$ pnpm install
+or
+$ npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+# Start the project in development
+$ pnpm run dev
+or
+$ npm run dev
+```
 
-## Learn More
+# Be sure to replace the momoji and all the relative information, such as email, website and other info, if you don't your website is gonna point to my domain and to my info
 
-To learn more about Next.js, take a look at the following resources:
+## REMOVE THE umami analytics script tag (or replace it with your id) in `src/layouts/Layout.astro`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+remember to replace the `site` and other properties with your data in `astro.config.mjs`
 
-## Deploy on Vercel
+# Deploy on Netlify 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploying your website on Netlify it's optional but I reccomand it in order to deploy it faster and easly.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You just need to fork this repo and linking it to your Netlify account.
+
+or
+
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Ladvace/astro-bento-portfolio)
+
+## Authors ❤️
+
+- Gianmarco - https://github.com/Ladvace

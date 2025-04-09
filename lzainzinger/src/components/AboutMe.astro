@@ -1,0 +1,32 @@
+---
+import Card from "./Card/index.astro";
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-6" title="About me">
+  <div class="flex flex-col gap-2">
+    <div class="text-sm font-light">
+      <p>
+        Hi, I'm Lukas, a Site Reliability Engineer from Vienna - Austria.
+        <br />
+        My primary tools of choice includes:
+      </p>
+      <ul class="list-disc list-inside">
+        <li>Terraform</li>
+        <li>Kubernetes</li>
+        <li>AWS</li>
+        <li>Python</li>
+        <li>TypeScript</li>
+        <li>Bash</li>
+      </ul>
+    </div>
+    <p class="text-sm font-light">
+      Beyond coding, I'm passionate about photography, movies and sports like tennis, flag football and running.
+      An unusual hobby of mine is DJing and producing every kind of music.
+    </p>
+    <p class="text-sm font-light">
+      While I have some preferred tools, I always choose the best one for the
+      job, even if it's not on my usual list. My goal is to find the right
+      solution for each project.
+    </p>
+  </div>
+</Card>

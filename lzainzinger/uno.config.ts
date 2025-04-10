@@ -50,16 +50,16 @@ export default defineConfig({
         900: "#0B0B0B" /* Deeper and darker */,
       },
       primary: {
-        100: "#F9CDD3",
-        200: "#F3A3AA",
-        300: "#EC7981",
-        400: "#E64F59",
-        500: "#E63946",
-        600: "#CF2F3D",
-        700: "#B82534",
-        800: "#A01B2B",
-        900: "#891321",
-      },
+        100: "#E6FAF5", // very light mint
+        200: "#C0F0E4", // soft mint
+        300: "#99E6D4", // fresh mint
+        400: "#73DCC3", // mid mint
+        500: "#4DD2B3", // true mint
+        600: "#3EB59A", // slightly deeper
+        700: "#2F9982", // darker mint
+        800: "#217C69", // deep mint green
+        900: "#145F51", // rich dark mint
+      }      
     },
   },
   presets: [
